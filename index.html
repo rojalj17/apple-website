@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fomntawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Rubik+Wet+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+
+            <img style="width: 80px; height:50px;" src="./media files/applelogo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active me-5" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-5 " href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-5" href="#explore"> EXPLORE MODELS</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link active me-5" href="#contact"> CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <div class="container">
+        <div id="head">
+            <h1 id="heading">iPhone</h1>
+            <!-- <h2 id="head2" >Designed to be loved.</h2> -->
+        </div>
+        <div class="video-lg" id="video">
+            <video class="border rounded-3 mt-3" width="100%" height="100%" autoplay="autoplay" loop muted>
+                <source src="./media files/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about" class="container my-5">
+        <h2 class="mb-5">Get to know iPhone...</h2>
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true"></button>
+                <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1"></button>
+            </div>
+
+            <!-- Carousel Inner -->
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 mb-2">
+                            <div class="card bg-black ">
+                                <div style="position: relative;" class="mt-4">
+                                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*6-QXN31VqF9K3ziBcBlbKA@2x.jpeg"
+                                        style="height: 630px;" class="card-img-top " alt="Mobile 1">
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mt-4"
+                                    style="position: absolute; " id="divdi">
+                                    <!-- <h4 class="card-text text-light text-center ">Fast that last</h4> -->
+
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mt-3 ps-4"
+                                    style="position: absolute;">
+
+                                    <h3 class="card-title text-light">Chip and battery life <br>Fast that last</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="card bg-black ">
+                                <div style="position: relative ; " class="mt-5">
+                                    <img src="./media files/appleintelligence-removebg-preview.png"
+                                        class="card-img-top mt-4 mb-2 " alt="Mobile 1" style="height: 570px;">
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mt-4 ps-1"
+                                    style="position: absolute; " id="divdi">
+                                    <!-- <h4 class="card-text text-light text-center " id="gg">AI Possibilites</h4> -->
+
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mt-3 ps-4"
+                                    style="position: absolute;">
+
+                                    <h3 class="card-title text-light">Apple Intelligence <br>AI Possibilites</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="card bg-black">
+                                <div style="position: relative;" class="mt-4">
+                                    <img src="./media files/16side_view-removebg-preview.png" class="card-img-top mt-4"
+                                        style="height: 600px;" alt="Mobile 1">
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mt-4"
+                                    style="position: absolute; " id="divdi">
+                                    <!-- <h4 class="card-text text-light text-center " id="#gd">Durable design</h4> -->
+
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mt-3 ps-4"
+                                    style="position: absolute;">
+
+                                    <h3 class="card-title text-light">Innovation <br>Durable design</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 mb-2">
+                            <div class="card bg-black ">
+                                <div style="position: relative;" class="mt-4">
+                                    <img src="https://smashedit.co.nz/wp-content/uploads/2023/10/iphone-privacty.webp"
+                                        style="height: 630px; width: 2000px;" class="card-img-top img-fluid "
+                                        alt="Mobile 1">
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mt-4"
+                                    style="position: absolute; " id="divdi">
+                                    <!-- <h4 class="card-text text-light text-center ps-2 ">Safe and private</h4> -->
+
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mt-3 ps-4"
+                                    style="position: absolute;">
+
+                                    <h3 class="card-title text-light">Privacy <br>Safe and private</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="card bg-black ">
+                                <div style="position: relative ; " class="mt-6">
+                                    <img src="./media files/enivronement.png" class="card-img-top mt-5 img-fluid"
+                                        style="height: 600px; width: 500px;" alt="">
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mt-4 ps-1"
+                                    style="position: absolute; " id="divdi">
+                                    <!-- <h4 class="card-text text-light text-center ">Reuse.Repeat</h4> -->
+
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mt-3 ps-4"
+                                    style="position: absolute;">
+
+                                    <h3 class="card-title text-light">Environment <br>
+                                        Recycle.Reuse.Repeat</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="card bg-black ">
+                                <div style="position: relative;" class="mt-4">
+                                    <img src="./media files/customize.png" style="height: 630px; width: 2000px;"
+                                        class="card-img-top img-fluid " alt="Mobile 1">
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mt-4"
+                                    style="position: absolute; " id="divdi">
+                                    <!-- <h4 class="card-text text-light text-center ps-2 ">Make it you</h4> -->
+
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mt-3 ps-4"
+                                    style="position: absolute;">
+
+                                    <h3 class="card-title text-light">Customize your Phone <br>Make it you</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- products -->
+    <div class="container py-5"  id="explore" >
+        <h1 class="text-center mb-4">Explore the line-up</h1>
+
+        <!-- Bootstrap Carousel -->
+        <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row g-4">
+                        <!-- Card 1 -->
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./media files/iphone_16_pro-removebg-preview.png" class="card-img-top"
+                                    alt="iPhone 16 Pro">
+                                <div class="card-body">
+                                    <h5 class="card-title">iPhone 16 Pro</h5>
+                                    <p class="card-text">The ultimate iPhone.</p>
+                                    <p class="price">From ₹119900.00*</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./media files/iphone 16.png" class="card-img-top" alt="iPhone 16">
+                                <div class="card-body">
+                                    <h5 class="card-title">iPhone 16</h5>
+                                    <p class="card-text">A total powerhouse.</p>
+                                    <p class="price">From ₹79900.00*</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./media files/iphone 15 pro max.png" class="card-img-top" alt="iPhone 15">
+                                <div class="card-body">
+                                    <h5 class="card-title">iPhone 15 pro max</h5>
+                                    <p class="card-text">Titanium. So strong. So light. So Pro.</p>
+                                    <p class="price">From ₹115900.00*</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 4 -->
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./media files/iphone_15-removebg-preview.png" class="card-img-top"
+                                    alt="iPhone 15">
+                                <div class="card-body">
+                                    <h5 class="card-title">iPhone 15 </h5>
+                                    <p class="card-text">As amazing as ever.</p>
+                                    <p class="price">From ₹76900.00*</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <!-- Card 5-->
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./media files/14 pro max.png" class="card-img-top" alt="iPhone 14">
+                                <div class="card-body">
+                                    <h5 class="card-title">iPhone 14 pro max</h5>
+                                    <p class="card-text">Technical Specifications</p>
+                                    <p class="price">From ₹115900.00*</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card text-center">
+                                <img src="https://m.media-amazon.com/images/I/71xb2xkN5qL.jpg" class="card-img-top"
+                                    alt="iPhone SE">
+                                <div class="card-body">
+                                    <h5 class="card-title">iPhone 13</h5>
+                                    <p class="card-text">Simply brilliant.</p>
+                                    <p class="price">From ₹52000.00*</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 7 -->
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./media files/iphone_12_mini-removebg-preview.png" class="card-img-top"
+                                    alt="iPhone SE">
+                                <div class="card-body">
+                                    <h5 class="card-title">iPhone 12 mini</h5>
+                                    <p class="card-text">Splash, Water, and Dust Resistant</p>
+                                    <p class="price">From ₹36000*</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 8 -->
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./media files/iphone_xr-removebg-preview.png" class="card-img-top"
+                                    alt="iPhone SE">
+                                <div class="card-body">
+                                    <h5 class="card-title">iPhone xr</h5>
+                                    <p class="card-text">7-nanometer A12 Bionic chip</p>
+                                    <p class="price">From ₹46000.00*</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ESSENTIALS -->
+    <div class="container essentials-section">
+        <h1 class=" mb-5">iPhone Essentials...</h1>
+        <div class="row g-4">
+            <!-- MagSafe Section -->
+            <div class="col-md-6">
+                <div class="product-card text-center">
+                    <h3>MagSafe</h3>
+                    <p>Snap on a magnetic case, wallet, or both. And get faster, more efficient wireless
+                        charging.</p>
+                    <a href="">Shop MagSafe accessories &rsaquo;</a>
+                    <div class="mt-3">
+                        <img class="img-fluid"
+                            src="https://www.intego.com/mac-security-blog/wp-content/uploads/2021/10/magsafe-hero.jpeg"
+                            alt="MagSafe Product 1">
+
+                    </div>
+                </div>
+            </div>
+            <!-- AirTag Section -->
+            <div class="col-md-6">
+                <div class="product-card text-center">
+                    <h3>AirTag</h3>
+                    <p>Attach one to your keys. Put another in your backpack. If they're misplaced, just use the
+                        Find My
+                        app.</p>
+                    <a href="">Buy &rsaquo;</a>
+                    <div class="mt-3">
+                        <img src="https://eshop.macsales.com/blog/wp-content/uploads/2023/04/airtag-mosaic-scaled.jpg"
+                            alt="AirTag Product" style="height: 330px; width: 500px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- other essentials -->
+    <div class="container my-5">
+        <h1 class="mb-5">Significant Others...</h1>
+        <div class="row">
+            <!-- Accordion Section -->
+            <div class="col-md-6 mt-1">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                iPhone and Mac
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                With iPhone Mirroring, you can view your iPhone screen on your Mac and control
+                                it
+                                without picking up your phone. Continuity features also let you answer calls or
+                                messages
+                                right from your Mac. You can even copy images, video, or text from your iPhone
+                                and paste
+                                it all into a different app on your Mac. And with iCloud, you can access your
+                                files from
+                                either device.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                iphone and Apple Watch
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Misplaced your iPhone? The latest Apple Watch models can show you its
+                                approximate
+                                distance and direction.14 To set up a group photo on your iPhone, join the group
+                                and use
+                                Apple Watch as a viewfinder to snap the shot. And when you take a call on your
+                                Apple
+                                Watch, just tap your iPhone to continue the conversation there.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                iphone and Airpods
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Set up AirPods on iPhone with just a tap. You’ll love Adaptive Audio, which
+                                automatically tailors the noise control for you to provide the best listening
+                                experience
+                                across different environments and interactions throughout the day.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="otherimg">
+                    <img class="img-fluid" src="./media files/image.png" alt="" style="height: 360px; width: 500px">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Reach out to us!</p>
+            <form class="row g-3 justify-content-center">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-md-12">
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-3">
+        <p>©2024 Apple Services. All Rights Reserved ®Rojal Jyothish</p>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
